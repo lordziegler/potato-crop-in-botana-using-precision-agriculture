@@ -1,0 +1,13 @@
+sample_id,field,raw,clean,reason
+M23,all,,,"duplicate of M22 location (lon one-digit typo); dropped, M22 kept"
+M15,lat,115570465.0,1.15570465,decimal point missing (115570465)
+M20,lat,1.5597157,1.15597157,digit missing: 1.5597157 lies ~45 km north; 1.15597157 fits the team transect (M19-M21). VERIFY with GPS
+M7,p,30032.0,30.032,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M16,p,5871.0,5.871,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M17,p,10398.0,10.398,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M18,p,8436.0,8.436,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M7,k,6583.0,6.583,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M14,k,1429.0,1.429,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M15,k,1195.0,1.195,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M18,k,5036.0,5.036,"decimal comma read as thousands separator (e.g. '5,871' -> 5871)"
+M22,om,0.036,3.6,"ASSUMED reported as fraction, not %; all other samples are 1.6-6.6 %. VERIFY"

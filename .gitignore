@@ -1,0 +1,9 @@
+# GeoPackage / SQLite journal files (exist while QGIS has the layer open)
+*.gpkg-wal
+*.gpkg-shm
+
+# QGIS project backups
+*.qgz~
+*.qgs~
+
+__pycache__/
